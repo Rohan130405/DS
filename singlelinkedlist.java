@@ -30,7 +30,7 @@ class LinkedList{
         else{
             Node newnode=new Node(data);
             newnode.next=head;
-            head=newnode;cd
+            head=newnode;
         }
     }
     void rmfront(){
