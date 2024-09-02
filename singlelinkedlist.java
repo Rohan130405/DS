@@ -30,12 +30,12 @@ class LinkedList{
         else{
             Node newnode=new Node(data);
             newnode.next=head;
-            head=newnode;
+            head=newnode;cd
         }
     }
     void rmfront(){
         if(head==null){
-            System.out.println("no elemnts in the lsit");
+            System.out.println("no elemnts in the list");
         }
         else{
             if(head.next==null){
